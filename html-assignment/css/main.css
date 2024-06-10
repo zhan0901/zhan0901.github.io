@@ -29,17 +29,17 @@ nav ul {
   
 nav a {
     text-decoration: none;
-  }
-  
-  
-nav a {
     background-color: #f0f0f0; 
     border: 1px solid #ccc; 
-    padding: 5px 10px; 
-    display: inline-block; 
   }
-  
   
 nav a:hover,nav a:focus {
     background-color:forestgreen; 
+  }
+  nav ul{
+    display: flex;
+  }
+
+  nav li {
+    margin-right: 10px;
   }
