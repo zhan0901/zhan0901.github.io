@@ -1,0 +1,45 @@
+body {
+    font-size: 18px;
+}
+
+header,footer {
+    background-color:seagreen;
+}
+
+.site-title {
+    color:aliceblue;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black; 
+}
+
+.hobbies-list {
+    list-style-type: square;
+  }
+
+.hobbies-list li:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+nav ul {
+    list-style-type: none;
+  }
+  
+  
+nav a {
+    text-decoration: none;
+  }
+  
+  
+nav a {
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    padding: 5px 10px; 
+    display: inline-block; 
+  }
+  
+  
+nav a:hover,nav a:focus {
+    background-color:forestgreen; 
+  }
