@@ -7,9 +7,62 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <!-- wrapper centers and adds width to content -->
-
-    <!-- header has an image in html with h1 overlapped -->
-
+    <header>
+            <img src="images/lone-starfish-wide.jpg" alt="Starfish image wide">
+            <h1>Lone Starfish</h1>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+              
+                <li><a href="#">STORY</a></li>
+           
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <section class="article">
+            <h2>Life of a Starfish</h2>
+                <img src="images/lone-starfish.jpg" alt="Starfish image">
+                <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.</p>            
+        </section>
+        <section class="facts">
+            <h3>Facts About Starfish</h3>
+            <dl>
+                <dt>A STARFISH IS NOT A FISH.</dt>
+                <dd>In fact, despite their name, they are not related to fish at all. Perhaps surprisingly, Starfish actually belong to the group of marine invertebrates which also include sea cucumber, sea urchin and sand dollar!</dd>
+                <dt>THEY HAVE NO BRAIN OR BLOOD.</dt>
+                <dd>Starfish don't actually have a brain, or even blood! In fact, they use filtered sea water to pump nutrients through their nervous system instead.</dd>
+                <dt>THEY WEIGH MORE THAN YOU THINK.</dt>
+                <dd>They might look small, but in fact, Starfish can weigh up to an impressive 11lbs.</dd>
+                <dt>THEY LIVE FOR A LONG TIME.</dt>
+                <dd>The average lifespan of a Starfish is an impressive 35 years. Usually, large Starfish species tend to live longer than their smaller counterparts.</dd>
+            </dl>
+        </section>
+        <section class="contact">
+            <h3>Contact to learn more</h3>
+            <form>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message"></textarea>
+               
+                <p>Would you like to visit the starfish?</p>
+                <div class="radio-group">
+                <label>Yes<input type="radio" name="visit" value="yes"> </label>
+                <label>No<input type="radio" name="visit" value="no"></label>
+                <label>Maybe<input type="radio" name="visit" value="maybe"></label>
+                </div>
+                <button type="submit">SEND</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© Lone Starfish.</p>
+    </footer>
 </body>
 </html>
