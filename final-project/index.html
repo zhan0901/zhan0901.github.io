@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>zhan0901 final project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/68593451dd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <!-- Header -->
     <header>
+        <div class="header-container">
         <div class="logo">
             <img src="images/logo.png" alt="Three Star Media Logo">
         </div>
@@ -23,7 +28,8 @@
         </nav>
         <div class="search">
             <input type="text" placeholder="Search">
-            <button>Search</button>
+            <button><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+        </div>
         </div>
     </header>
     
@@ -33,51 +39,58 @@
             <img src="images/main-banner.jpg" alt="Main Banner">
             <h1>Welcome to Three Star Media</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reiciendis aspernatur commodi? Saepe quos ut accusantium aliquid impedit quaerat excepturi nemo delectus dolorem nobis sunt fuga autem, eligendi voluptates sint.</p>
-            <button>Connect with us</button>
+            <button>Connect with us<i class="fa-solid fa-caret-right"></i></button>
         </div>
     </section>
 
     <!-- About Us -->
     <section class="about-us">
-        <h2>About Us</h2>
-        <div class="about-us-content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur perspiciatis obcaecati quasi inventore sapiente id facilis omnis iure. Amet sed nihil quasi provident. Culpa expedita facilis dolor iste? Praesentium.</p>
             <img src="images/about-us.jpg" alt="About Us Image">
-        </div>
+            <div class="about-us-content">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur perspiciatis obcaecati quasi inventore sapiente id facilis omnis iure. Amet sed nihil quasi provident. Culpa expedita facilis dolor iste? Praesentium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptate, maxime, reiciendis aliquam ducimus nisi provident odit temporibus iure aperiam, quasi at suscipit incidunt veritatis atque. Laudantium reprehenderit totam ea?</p>
+            </div>
     </section>
 
     <!-- Our Services -->
     <section class="services">
         <h2>Our Services</h2>
         <div class="service-item">
+        <div class="service-item-1">
+            <img src="images/digital.jpg" alt="Digital Transformation">
             <h3>Digital Transformation</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique officiis blanditiis qui odio mollitia nesciunt! Vitae et quam, dolores eos ex maiores assumenda obcaecati tenetur commodi debitis, aperiam tempore ducimus?</p>
-            <img src="images/digital.jpg" alt="Digital Transformation">
-            <button>Digital Plans</button>
+            <button>Digital Plans<i class="fa-solid fa-caret-right"></i></button>
         </div>
-        <div class="service-item">
+
+        <div class="service-item-2">
+            <img src="images/marketing.jpg" alt="Marketing">
             <h3>Marketing</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quasi expedita quae magnam optio officia incidunt maiores aspernatur, quibusdam cupiditate, accusantium, asperiores officiis porro accusamus quidem nesciunt animi. Eligendi, expedita?</p>
-            <img src="images/marketing.jpg" alt="Marketing">
-            <button>Marketing Plans</button>
+            <button>Marketing Plans<i class="fa-solid fa-caret-right"></i></button>
         </div>
-        <div class="service-item">
-            <h3>Video Production</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+        <div class="service-item-3">
             <img src="images/video.jpg" alt="Video Production">
-            <button>Video Plans</button>
+            <h3>Video Production</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga optio assumenda at ducimus commodi quaerat laudantium sequi hic quas harum non, quam doloremque! Sapiente maiores iure fugit temporibus suscipit perferendis!</p>
+            <button>Video Plans<i class="fa-solid fa-caret-right"></i></button>
         </div>
-        <div class="service-item">
+
+        <div class="service-item-4">
+            <img src="images/web.jpg" alt="Web Development">
             <h3>Web Development</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta a corrupti recusandae, nemo provident reiciendis excepturi voluptatibus? Mollitia ipsa obcaecati quibusdam omnis adipisci id tempora perferendis voluptatibus dolore amet! Quia.</p>
-            <img src="images/web.jpg" alt="Web Development">
-            <button>Web Plans</button>
+            <button>Web Plans<i class="fa-solid fa-caret-right"></i></button>
         </div>
-        <div class="service-item">
+
+        <div class="service-item-5">
+            <img src="images/print.jpg" alt="Print">
             <h3>Print</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi, dolore dolores ea accusamus, consequuntur illo accusantium molestiae numquam voluptatem repellendus. Excepturi ullam corporis laboriosam unde laudantium dolorem consectetur voluptates.</p>
-            <img src="images/print.jpg" alt="Print">
-            <button>Print Plans</button>
+            <button>Print Plans<i class="fa-solid fa-caret-right"></i></button>
+        </div>
         </div>
     </section>
 
@@ -85,41 +98,43 @@
     <section class="vision">
         <h2>Our Vision</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam sequi facere rerum reprehenderit ducimus ipsa nostrum sint repellendus numquam aperiam, quas doloribus officia cumque dignissimos asperiores voluptates eum magni enim!</p>
-        <img src="images/vision.jpg" alt="Our Vision">
-        <button>Learn More</button>
+        <button>Learn More<i class="fa-solid fa-caret-right"></i></button>
     </section>
 
     <!-- Our Team -->
     <section class="team">
-        <h2>Our Team</h2>
-        <div class="team-member">
+    <h2>Our Team</h2>
+    <div class="team-member">
+    <div class="team-member-1">
+        <div class="member-photo-1">
             <img src="images/john.jpg" alt="John Doe">
-            <div class="member-info">
-                <h3>John Doe</h3>
-                <p>CEO and Co-owner</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, ratione mollitia, similique minus earum numquam enim excepturi, a ipsum accusantium neque placeat. Quibusdam perspiciatis illum dolore laudantium nisi odio! Facere.</p>
-            </div>
         </div>
-        <div class="team-member">
+        <div class="member-info-1">
+            <h3>John Doe</h3>
+            <p>CEO and Co-owner</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, ratione mollitia, similique minus earum numquam enim excepturi, a ipsum accusantium neque placeat. Quibusdam perspiciatis illum dolore laudantium nisi odio! Facere.</p>
+        </div>
+    </div>
+    
+    <div class="team-member-2">
+        <div class="member-photo-2">
             <img src="images/bob.jpg" alt="Bob Rite">
-            <div class="member-info">
-                <h3>Bob Rite</h3>
-                <p>CFO and Co-owner</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium molestiae iusto ad et voluptas tempora suscipit facere voluptatem beatae similique possimus, deserunt, repellat sit, minima ea. Unde dolore quos debitis.</p>
-            </div>
         </div>
-        <div class="team-member">
-            <img src="images/john.jpg" alt="John Doe">
-            <div class="member-info">
-                <h3>John Doe</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quidem tempora nobis! Sed sunt nostrum nisi explicabo voluptates ipsam similique veniam dignissimos? Quas quibusdam quam facilis quae vel? Porro, exercitationem?</p>
-            </div>
+        <div class="member-info-2">
+            <h3>Bob Rite</h3>
+            <p>CFO and Co-owner</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium molestiae iusto ad et voluptas tempora suscipit facere voluptatem beatae similique possimus, deserunt, repellat sit, minima ea. Unde dolore quos debitis.</p>
         </div>
-    </section>
+    </div>
+    </div>
+</section>
+
 
     <!-- Contact Us -->
     <section class="contact">
         <h2>Contact Us</h2>
+        <div class="message">
+        <h3>Send us a message</h3>
         <div class="contact-form">
             <form>
                 <label for="name">Full Name</label>
@@ -134,23 +149,33 @@
                 <button type="submit">Send</button>
             </form>
         </div>
-        <div class="location">
-            <h3>Location</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5607.914741718904!2d-75.76088505341886!3d45.34967278428896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1salgonquin%20college!5e0!3m2!1sen!2sca!4v1722435601951!5m2!1sen!2sca"></iframe>
         </div>
-        
+       
         <div class="hours">
             <h3>Hours of Operation</h3>
             <table>
-                <tr>
-                    <td>Monday - Friday</td>
-                    <td>9 AM - 6 PM</td>
-                </tr>
-                <tr>
-                    <td>Saturday - Sunday</td>
-                    <td>Closed</td>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>Days</th>
+                        <th>Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday - Friday</td>
+                        <td>9 AM - 6 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday - Sunday</td>
+                        <td>Closed</td>
+                    </tr>
+                </tbody>
             </table>
+        </div>
+
+        <div class="location">
+            <h3>Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5607.914741718904!2d-75.76088505341886!3d45.34967278428896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1salgonquin%20college!5e0!3m2!1sen!2sca!4v1722435601951!5m2!1sen!2sca"></iframe>
         </div>
     </section>
 
