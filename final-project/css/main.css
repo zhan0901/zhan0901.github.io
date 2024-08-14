@@ -609,7 +609,7 @@ footer {
         align-items: flex-start;
         padding: 0 10%;
         box-sizing: border-box;
-        background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色遮罩 */
+        background-color: rgba(0, 0, 0, 0.5); 
         color: white;
     }
     
@@ -670,7 +670,7 @@ footer {
   }
   
   .services h2 {
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
   }
   
